@@ -161,6 +161,10 @@
     input:focus, select:focus, textarea:focus { border-color: var(--terracotta); outline: 3px solid rgba(196,82,50,.14); }
     .lead-form .button { width: 100%; }
     .privacy { margin: 10px 0 0; color: var(--muted); font-size: 11px; text-align: center; }
+    .privacy a { color: var(--terracotta-dark); }
+    .consent { margin: 4px 0 17px; display: grid; grid-template-columns: 22px 1fr; gap: 9px; align-items: start; color: var(--muted); font-size: 12px; font-weight: 500; }
+    .consent input { width: 18px; min-height: 18px; margin: 2px 0 0; }
+    .honeypot { position: absolute !important; width: 1px !important; height: 1px !important; overflow: hidden !important; clip: rect(0, 0, 0, 0) !important; white-space: nowrap !important; }
     .form-success { padding: 55px 24px; display: none; text-align: center; }
     .form-success.show { display: block; }
     .form-success .success-mark { width: 58px; height: 58px; margin: 0 auto 18px; display: grid; place-items: center; border-radius: 50%; background: var(--sage); color: var(--sage-ink); font-size: 24px; }
@@ -367,30 +371,36 @@
           <p class="eyebrow">Start the conversation</p>
           <h2 class="display section-title">Tell us where your student wants to go.</h2>
           <p class="section-copy">Share a few details and we’ll follow up to discuss goals, fit, format, and availability.</p>
-          <p class="contact-note">Complete the form to open a pre-addressed email to <a href="mailto:admin@sonoranscholars.com">admin@sonoranscholars.com</a>. Review the message and press Send in your email app.</p>
+          <p class="contact-note">Complete the form and your request will be delivered to <a href="mailto:admin@sonoranscholars.com">admin@sonoranscholars.com</a>. Please do not include medical records, disability documentation, passwords, or other sensitive information.</p>
         </div>
         <div class="lead-form">
-          <form id="consultation-form">
+          <form id="consultation-form" action="https://formsubmit.co/admin@sonoranscholars.com" method="post">
+            <input type="hidden" name="_subject" value="New Sonoran Scholars consultation request">
+            <input type="hidden" name="_next" value="https://sonoranscholars.com/thanks.html">
+            <input type="hidden" name="_template" value="table">
+            <div class="honeypot" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="_honey" tabindex="-1" autocomplete="off"></div>
             <div class="form-row">
               <div class="field"><label for="parent-name">Parent / guardian name</label><input id="parent-name" name="name" autocomplete="name" required></div>
               <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
             </div>
+            <div class="field"><label for="phone">Phone number <span aria-hidden="true">(optional)</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel"></div>
             <div class="form-row">
               <div class="field"><label for="grade">Student grade</label><select id="grade" name="grade" required><option value="">Select grade</option><option>K–5</option><option>6–8</option><option>9–10</option><option>11–12</option></select></div>
               <div class="field"><label for="subject">Primary goal</label><select id="subject" name="subject" required><option value="">Select a goal</option><option>SAT / ACT preparation</option><option>AP exam support</option><option>Chemistry</option><option>Physics</option><option>Biology</option><option>Calculus / mathematics</option><option>Reading help</option><option>Other class support</option></select></div>
             </div>
+            <div class="field"><label for="format">Preferred session format</label><select id="format" name="format" required><option value="">Select a format</option><option>In person</option><option>Live online</option><option>Either / not sure</option></select></div>
             <div class="field"><label for="message">What would you like help with?</label><textarea id="message" name="message" placeholder="Tell us about the class, test date, or learning goal."></textarea></div>
-            <button class="button" type="submit">Open email request <span aria-hidden="true">→</span></button>
-            <p class="privacy">By submitting, you agree to be contacted about tutoring services.</p>
+            <label class="consent" for="consent"><input id="consent" type="checkbox" name="consent" value="I agree" required><span>I agree that Sonoran Scholars may use this information to respond to my tutoring inquiry. I have read the <a href="privacy.html">privacy notice</a>.</span></label>
+            <button class="button" type="submit">Request a consultation <span aria-hidden="true">→</span></button>
+            <p class="privacy">Your information is sent securely to our business email through FormSubmit. We do not ask for a student's full name on this form.</p>
           </form>
-          <div class="form-success" id="form-success" role="status"><div class="success-mark">→</div><h3>Finish in your email app.</h3><p>Your request has been prepared but has not been sent yet. Review it and press Send. If your email app did not open, email <a href="mailto:admin@sonoranscholars.com">admin@sonoranscholars.com</a>.</p><button class="button secondary small" type="button" id="reset-form">Prepare another request</button></div>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container footer-row"><span>© <span id="year"></span> Sonoran Scholars Tutoring. Phoenix, Arizona.</span><span><a href="#top">Back to top ↑</a></span></div>
+    <div class="container footer-row"><span>© <span id="year"></span> Sonoran Scholars Tutoring. Phoenix, Arizona.</span><span><a href="privacy.html">Privacy</a> · <a href="#top">Back to top ↑</a></span></div>
   </footer>
 
   <script>
@@ -416,27 +426,6 @@
       if (willOpen) { item.classList.add('open'); button.setAttribute('aria-expanded', 'true'); }
     }));
 
-    const form = document.getElementById('consultation-form');
-    const success = document.getElementById('form-success');
-    form.addEventListener('submit', event => {
-      event.preventDefault();
-      if (!form.reportValidity()) return;
-      const data = new FormData(form);
-      const subject = `Tutoring consultation request — ${data.get('subject')}`;
-      const body = [
-        `Parent / guardian: ${data.get('name')}`,
-        `Reply email: ${data.get('email')}`,
-        `Student grade: ${data.get('grade')}`,
-        `Primary goal: ${data.get('subject')}`,
-        '',
-        'Additional details:',
-        data.get('message') || 'None provided.'
-      ].join('\n');
-      window.location.href = `mailto:admin@sonoranscholars.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      form.hidden = true;
-      success.classList.add('show');
-    });
-    document.getElementById('reset-form').addEventListener('click', () => { form.reset(); form.hidden = false; success.classList.remove('show'); form.querySelector('input').focus(); });
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
