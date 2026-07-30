@@ -1,0 +1,581 @@
+{
+  "exam": "ACT",
+  "topics": {
+    "English: Usage and Mechanics": [
+      {
+        "id": "act-01",
+        "topic": "English: Usage and Mechanics",
+        "prompt": "Choose the correct sentence.",
+        "choices": [
+          "Neither the coach nor the players was ready.",
+          "Neither the coach nor the players were ready.",
+          "Neither the coach or the players were ready.",
+          "Neither coach nor the players is ready."
+        ],
+        "answer": 1,
+        "explanation": "With neither/nor, the verb agrees with the nearer subject \u201cplayers,\u201d so \u201cwere\u201d is correct.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-02",
+        "topic": "English: Usage and Mechanics",
+        "prompt": "Choose the best punctuation: Elena brought three items ___ a notebook, a ruler, and a calculator.",
+        "choices": [
+          ";",
+          ",",
+          ":",
+          "\u2014 and"
+        ],
+        "answer": 2,
+        "explanation": "A colon properly introduces a list after the complete independent clause.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-03",
+        "topic": "English: Usage and Mechanics",
+        "prompt": "Which sentence is correctly punctuated?",
+        "choices": [
+          "The rain stopped, we left the shelter.",
+          "The rain stopped; we left the shelter.",
+          "The rain stopped we, left the shelter.",
+          "The rain; stopped, we left the shelter."
+        ],
+        "answer": 1,
+        "explanation": "A semicolon correctly joins the two closely related independent clauses.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-04",
+        "topic": "English: Usage and Mechanics",
+        "prompt": "Choose the correct verb: Each of the proposals ___ a detailed budget.",
+        "choices": [
+          "include",
+          "includes",
+          "including",
+          "have included"
+        ],
+        "answer": 1,
+        "explanation": "The subject “Each” is singular, so it requires the singular verb “includes.”",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-05",
+        "topic": "English: Usage and Mechanics",
+        "prompt": "Choose the sentence with correct apostrophe use.",
+        "choices": [
+          "The dogs collar was blue.",
+          "The dog\u2019s collar was blue.",
+          "The dogs\u2019 collar was blue for one dog.",
+          "The dogs\u2019s collar was blue."
+        ],
+        "answer": 1,
+        "explanation": "The collar belongs to one dog, so the singular possessive \u201cdog\u2019s\u201d is correct.",
+        "difficulty": "easy"
+      }
+    ],
+    "English: Rhetorical Skills": [
+      {
+        "id": "act-06",
+        "topic": "English: Rhetorical Skills",
+        "prompt": "A paragraph explains how to plant a seed. Which opening is most relevant?",
+        "choices": [
+          "Gardening appears in many paintings.",
+          "Begin by filling a small pot with moist soil.",
+          "Some seeds have unusual names.",
+          "My neighbor owns a red bicycle."
+        ],
+        "answer": 1,
+        "explanation": "The selected opening immediately begins the process the paragraph intends to explain.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-07",
+        "topic": "English: Rhetorical Skills",
+        "prompt": "The writer wants to emphasize that a program saved money. Which sentence is most effective?",
+        "choices": [
+          "The program existed for twelve months.",
+          "The program reduced annual supply costs by $18,000.",
+          "Several employees attended meetings.",
+          "The office walls were repainted."
+        ],
+        "answer": 1,
+        "explanation": "The specific cost reduction directly and quantitatively supports the intended emphasis.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-08",
+        "topic": "English: Rhetorical Skills",
+        "prompt": "The road was icy. ___, the school delayed its opening.",
+        "choices": [
+          "Consequently",
+          "For example",
+          "Similarly",
+          "In contrast"
+        ],
+        "answer": 0,
+        "explanation": "\u201cConsequently\u201d correctly shows that the delay resulted from the icy road.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-09",
+        "topic": "English: Rhetorical Skills",
+        "prompt": "Which concluding sentence best follows a paragraph about volunteers restoring a park?",
+        "choices": [
+          "The coordinated effort transformed a neglected space into a usable community park.",
+          "Parks can contain rocks.",
+          "Some volunteers prefer tea.",
+          "The city has many streets."
+        ],
+        "answer": 0,
+        "explanation": "This sentence summarizes the volunteers\u2019 effort and its relevant result.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-10",
+        "topic": "English: Rhetorical Skills",
+        "prompt": "Which revision is most concise? \u201cAt this point in time, the committee is currently reviewing the proposal.\u201d",
+        "choices": [
+          "Currently, the committee is reviewing the proposal.",
+          "At this point in time, currently, the committee reviews.",
+          "The committee is currently now reviewing the proposal.",
+          "The proposal is being reviewed at this current point in time by the committee."
+        ],
+        "answer": 0,
+        "explanation": "\u201cCurrently\u201d conveys the time meaning without the redundant phrases \u201cat this point in time\u201d and \u201ccurrently.\u201d",
+        "difficulty": "medium"
+      }
+    ],
+    "Math: Algebra": [
+      {
+        "id": "act-11",
+        "topic": "Math: Algebra",
+        "prompt": "Solve 4x - 9 = 19.",
+        "choices": [
+          "5",
+          "7",
+          "9",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "Add 9 to get 4x=28, then divide by 4 to obtain x=7.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "act-12",
+        "topic": "Math: Algebra",
+        "prompt": "If 2x + y = 11 and x - y = 1, what is x?",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "Adding the equations gives 3x=12, so x=4.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-13",
+        "topic": "Math: Algebra",
+        "prompt": "Which equation has slope -3 and y-intercept 5?",
+        "choices": [
+          "y=5x-3",
+          "y=-3x+5",
+          "y=3x-5",
+          "y=-5x+3"
+        ],
+        "answer": 1,
+        "explanation": "Slope-intercept form is y=mx+b, giving y=-3x+5.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-14",
+        "topic": "Math: Algebra",
+        "prompt": "Factor x\u00b2 + 7x + 12.",
+        "choices": [
+          "(x+2)(x+6)",
+          "(x+3)(x+4)",
+          "(x-3)(x-4)",
+          "(x+1)(x+12)"
+        ],
+        "answer": 1,
+        "explanation": "The numbers 3 and 4 multiply to 12 and add to 7.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-15",
+        "topic": "Math: Algebra",
+        "prompt": "If f(x)=3x-2, which value of x gives f(x)=13?",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Solve 3x-2=13: 3x=15, so x=5.",
+        "difficulty": "easy"
+      }
+    ],
+    "Math: Geometry and Trigonometry": [
+      {
+        "id": "act-16",
+        "topic": "Math: Geometry and Trigonometry",
+        "prompt": "The angles of a triangle are 45\u00b0, 65\u00b0, and x\u00b0. What is x?",
+        "choices": [
+          "60\u00b0",
+          "70\u00b0",
+          "80\u00b0",
+          "90\u00b0"
+        ],
+        "answer": 1,
+        "explanation": "Triangle angles sum to 180\u00b0, so x=180-45-65=70\u00b0.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "act-17",
+        "topic": "Math: Geometry and Trigonometry",
+        "prompt": "What is the circumference of a circle with diameter 10?",
+        "choices": [
+          "5\u03c0",
+          "10\u03c0",
+          "20\u03c0",
+          "100\u03c0"
+        ],
+        "answer": 1,
+        "explanation": "Circumference equals \u03c0 times diameter, so C=10\u03c0.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-18",
+        "topic": "Math: Geometry and Trigonometry",
+        "prompt": "A right triangle has hypotenuse 15 and one leg 9. What is the other leg?",
+        "choices": [
+          "6",
+          "9",
+          "12",
+          "18"
+        ],
+        "answer": 2,
+        "explanation": "The other leg is \u221a(15\u00b2-9\u00b2)=\u221a144=12.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-19",
+        "topic": "Math: Geometry and Trigonometry",
+        "prompt": "A cylinder has radius 3 and height 5. What is its volume?",
+        "choices": [
+          "15\u03c0",
+          "30\u03c0",
+          "45\u03c0",
+          "90\u03c0"
+        ],
+        "answer": 2,
+        "explanation": "Cylinder volume is \u03c0r\u00b2h=\u03c0(3\u00b2)(5)=45\u03c0.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-20",
+        "topic": "Math: Geometry and Trigonometry",
+        "prompt": "If cos \u03b8=4/5 in a right triangle and the adjacent side is 12, what is the hypotenuse?",
+        "choices": [
+          "9.6",
+          "15",
+          "16",
+          "20"
+        ],
+        "answer": 1,
+        "explanation": "Adjacent/hypotenuse=4/5, so 12/h=4/5 and h=15.",
+        "difficulty": "medium"
+      }
+    ],
+    "Reading: Key Ideas and Details": [
+      {
+        "id": "act-21",
+        "topic": "Reading: Key Ideas and Details",
+        "prompt": "Passage: \u201cAfter the bakery began donating unsold bread each evening, the shelter reduced its weekly food purchases.\u201d Which inference is best supported?",
+        "choices": [
+          "The donations helped lower the shelter\u2019s food costs.",
+          "The bakery stopped selling bread.",
+          "The shelter served only bread.",
+          "Weekly food purchases increased."
+        ],
+        "answer": 0,
+        "explanation": "The reduction in purchases after donations supports the inference that donations lowered costs.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-22",
+        "topic": "Reading: Key Ideas and Details",
+        "prompt": "Passage: \u201cLuis rehearsed the presentation twice, then arrived early to test the projector.\u201d What does this detail mainly reveal?",
+        "choices": [
+          "Luis was unprepared.",
+          "Luis approached the task carefully.",
+          "The projector was broken.",
+          "The presentation was canceled."
+        ],
+        "answer": 1,
+        "explanation": "Rehearsing and testing equipment early demonstrate preparation and care.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-23",
+        "topic": "Reading: Key Ideas and Details",
+        "prompt": "Passage: \u201cMangrove roots slow waves and trap sediment, helping protect shorelines from erosion.\u201d What is the main idea?",
+        "choices": [
+          "Mangroves grow only inland.",
+          "Mangrove roots contribute to shoreline protection.",
+          "Sediment always increases erosion.",
+          "Waves prevent roots from growing."
+        ],
+        "answer": 1,
+        "explanation": "The sentence explains two mechanisms by which mangrove roots protect shorelines.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-24",
+        "topic": "Reading: Key Ideas and Details",
+        "prompt": "A chart shows library visits: Monday 120, Tuesday 135, Wednesday 150, Thursday 140. Which day had the most visits?",
+        "choices": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "answer": 2,
+        "explanation": "Wednesday has the highest listed value, with 150 visits.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "act-25",
+        "topic": "Reading: Key Ideas and Details",
+        "prompt": "Passage: \u201cThough the first prototype failed, Priya recorded each flaw and used the notes to redesign it.\u201d Which theme is best supported?",
+        "choices": [
+          "Failure can provide useful information for improvement.",
+          "Notes always prevent failure.",
+          "Prototypes should never be redesigned.",
+          "Priya disliked engineering."
+        ],
+        "answer": 0,
+        "explanation": "Priya uses the failed attempt as evidence to improve the next design.",
+        "difficulty": "medium"
+      }
+    ],
+    "Reading: Craft and Structure": [
+      {
+        "id": "act-26",
+        "topic": "Reading: Craft and Structure",
+        "prompt": "In \u201cThe narrow trail wound through a dense forest,\u201d wound most nearly means",
+        "choices": [
+          "injured",
+          "twisted along",
+          "covered",
+          "stopped"
+        ],
+        "answer": 1,
+        "explanation": "In context, \u201cwound\u201d describes a trail that followed a twisting path.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-27",
+        "topic": "Reading: Craft and Structure",
+        "prompt": "A passage begins with a puzzling observation and then describes an experiment that explains it. What is the structure?",
+        "choices": [
+          "Problem followed by investigation",
+          "Chronological biography",
+          "Comparison of two poems",
+          "Claim followed by unrelated detail"
+        ],
+        "answer": 0,
+        "explanation": "The observation establishes a problem, and the experiment investigates its cause.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-28",
+        "topic": "Reading: Craft and Structure",
+        "prompt": "\u201cThe old clock protested with a groan each hour.\u201d What effect does the personification create?",
+        "choices": [
+          "It emphasizes the clock\u2019s age and strained sound.",
+          "It proves the clock can speak.",
+          "It gives the exact time.",
+          "It explains clock manufacturing."
+        ],
+        "answer": 0,
+        "explanation": "Giving the clock a protesting groan vividly suggests age and mechanical strain.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-29",
+        "topic": "Reading: Craft and Structure",
+        "prompt": "A writer calls a policy \u201ca useful first step, but not a complete solution.\u201d The tone is best described as",
+        "choices": [
+          "furious",
+          "cautiously approving",
+          "unquestioningly enthusiastic",
+          "indifferent"
+        ],
+        "answer": 1,
+        "explanation": "The writer acknowledges value while clearly limiting the praise.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-30",
+        "topic": "Reading: Craft and Structure",
+        "prompt": "Why might an author include a counterargument before restating a claim?",
+        "choices": [
+          "To acknowledge another view and strengthen the response",
+          "To avoid discussing the claim",
+          "To change the subject completely",
+          "To remove all evidence"
+        ],
+        "answer": 0,
+        "explanation": "Addressing an opposing view can make the author\u2019s reasoning more complete and persuasive.",
+        "difficulty": "medium"
+      }
+    ],
+    "Science: Data Interpretation": [
+      {
+        "id": "act-31",
+        "topic": "Science: Data Interpretation",
+        "prompt": "A plant study reports average growth: 10\u00b0C = 2 cm, 20\u00b0C = 6 cm, 30\u00b0C = 5 cm. At which temperature was growth greatest?",
+        "choices": [
+          "10\u00b0C",
+          "20\u00b0C",
+          "30\u00b0C",
+          "All were equal"
+        ],
+        "answer": 1,
+        "explanation": "The largest measured average growth is 6 cm at 20\u00b0C.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "act-32",
+        "topic": "Science: Data Interpretation",
+        "prompt": "As light intensity increased from 100 to 400 units, reaction rate rose from 3 to 9 units and then remained at 9 through 600 units. What pattern occurred?",
+        "choices": [
+          "A steady decrease",
+          "An increase followed by a plateau",
+          "No change at any intensity",
+          "A plateau followed by a decrease"
+        ],
+        "answer": 1,
+        "explanation": "The rate first rose and then stayed constant at 9, which is a plateau.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-33",
+        "topic": "Science: Data Interpretation",
+        "prompt": "Trial results are 12.1 s, 12.3 s, and 12.2 s. What is the mean time?",
+        "choices": [
+          "12.0 s",
+          "12.1 s",
+          "12.2 s",
+          "12.3 s"
+        ],
+        "answer": 2,
+        "explanation": "The sum is 36.6 seconds; dividing by three gives 12.2 seconds.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "act-34",
+        "topic": "Science: Data Interpretation",
+        "prompt": "A table shows dissolved oxygen falling from 8 mg/L at noon to 5 mg/L at midnight. What is the change?",
+        "choices": [
+          "Increase of 3 mg/L",
+          "Decrease of 3 mg/L",
+          "Decrease of 5 mg/L",
+          "No change"
+        ],
+        "answer": 1,
+        "explanation": "The value changes from 8 to 5 mg/L, a decrease of 3 mg/L.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-35",
+        "topic": "Science: Data Interpretation",
+        "prompt": "Group A has an average of 42 with range 4. Group B has an average of 42 with range 15. Which statement is supported?",
+        "choices": [
+          "Group A has a higher average.",
+          "Group B has less variability.",
+          "The groups have equal averages, but B is more variable.",
+          "The groups have equal ranges."
+        ],
+        "answer": 2,
+        "explanation": "The averages match, while the larger range shows greater variability in Group B.",
+        "difficulty": "medium"
+      }
+    ],
+    "Science: Scientific Investigation": [
+      {
+        "id": "act-36",
+        "topic": "Science: Scientific Investigation",
+        "prompt": "A student tests fertilizer amount on plant height. Which variable should be kept constant?",
+        "choices": [
+          "Amount of fertilizer",
+          "Final plant height",
+          "Plant species",
+          "The hypothesis"
+        ],
+        "answer": 2,
+        "explanation": "Keeping plant species constant helps isolate fertilizer amount as the cause of differences.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-37",
+        "topic": "Science: Scientific Investigation",
+        "prompt": "Why include a group of plants receiving no fertilizer?",
+        "choices": [
+          "To create a control for comparison",
+          "To increase the fertilizer dose",
+          "To change two variables at once",
+          "To guarantee the hypothesis is correct"
+        ],
+        "answer": 0,
+        "explanation": "A no-fertilizer control provides a baseline for evaluating the treatment effect.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-38",
+        "topic": "Science: Scientific Investigation",
+        "prompt": "Which change would most improve reliability when timing a pendulum?",
+        "choices": [
+          "Use one trial only",
+          "Repeat trials and average the times",
+          "Change string length each trial",
+          "Round every time to the nearest minute"
+        ],
+        "answer": 1,
+        "explanation": "Repeated trials and averaging reduce the influence of random timing variation.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-39",
+        "topic": "Science: Scientific Investigation",
+        "prompt": "A thermometer reads 2\u00b0C too high in every trial. This is best described as",
+        "choices": [
+          "random error",
+          "systematic measurement error",
+          "a control variable",
+          "a sample mean"
+        ],
+        "answer": 1,
+        "explanation": "A consistent offset in the same direction is systematic measurement error.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "act-40",
+        "topic": "Science: Scientific Investigation",
+        "prompt": "Which hypothesis is testable?",
+        "choices": [
+          "Blue is the nicest color.",
+          "Plants given 8 hours of light will grow taller than identical plants given 4 hours.",
+          "Nature prefers balance.",
+          "This solution feels energetic."
+        ],
+        "answer": 1,
+        "explanation": "The light exposure and plant growth can be measured under controlled conditions.",
+        "difficulty": "medium"
+      }
+    ]
+  }
+}

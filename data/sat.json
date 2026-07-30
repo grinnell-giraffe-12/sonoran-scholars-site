@@ -1,0 +1,581 @@
+{
+  "exam": "SAT",
+  "topics": {
+    "Information and Ideas": [
+      {
+        "id": "sat-01",
+        "topic": "Information and Ideas",
+        "prompt": "A city converted an unused rail line into a walking trail. In the next year, nearby weekend foot traffic increased, and three caf\u00e9s opened. Which conclusion is best supported?",
+        "choices": [
+          "The trail likely contributed to increased activity nearby.",
+          "Every rail line should become a trail.",
+          "The caf\u00e9s paid for the trail.",
+          "Weekday traffic decreased."
+        ],
+        "answer": 0,
+        "explanation": "The timing and location support a likely connection, but not the stronger unsupported claims.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-02",
+        "topic": "Information and Ideas",
+        "prompt": "Maya tested bean plants under blue, red, and white light. After four weeks, average heights were 14 cm, 11 cm, and 13 cm, respectively. Which statement accurately describes the results?",
+        "choices": [
+          "Red light produced the tallest plants.",
+          "Blue light produced the tallest average plants.",
+          "White light prevented growth.",
+          "All groups reached the same height."
+        ],
+        "answer": 1,
+        "explanation": "The blue-light group had the greatest reported average height: 14 cm.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-03",
+        "topic": "Information and Ideas",
+        "prompt": "The library extended Friday hours after students requested more study time. Friday attendance then rose by 30 percent, while attendance on other days stayed stable. What is the main idea?",
+        "choices": [
+          "Longer Friday hours were associated with higher Friday attendance.",
+          "Students stopped visiting on other days.",
+          "The library reduced its total hours.",
+          "Attendance rose by 30 percent every day."
+        ],
+        "answer": 0,
+        "explanation": "The passage directly links extended Friday hours with a Friday attendance increase.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-04",
+        "topic": "Information and Ideas",
+        "prompt": "Researchers found that both urban and rural foxes were most active after sunset. Urban foxes, however, traveled shorter distances each night. Which finding distinguishes the groups?",
+        "choices": [
+          "Only rural foxes were active after sunset.",
+          "Urban foxes traveled shorter nightly distances.",
+          "Rural foxes slept during the day.",
+          "Urban foxes were larger."
+        ],
+        "answer": 1,
+        "explanation": "The only stated difference is the shorter distance traveled by urban foxes.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-05",
+        "topic": "Information and Ideas",
+        "prompt": "A survey found that 68% of riders favored more frequent buses, 21% favored lower fares, and 11% favored new shelters. Which proposal had the most support?",
+        "choices": [
+          "Lower fares",
+          "New shelters",
+          "More frequent buses",
+          "All had equal support"
+        ],
+        "answer": 2,
+        "explanation": "More frequent buses received 68 percent, the largest percentage in the survey.",
+        "difficulty": "easy"
+      }
+    ],
+    "Craft and Structure": [
+      {
+        "id": "sat-06",
+        "topic": "Craft and Structure",
+        "prompt": "The engineer called the first design \u201cpromising,\u201d but noted that it required substantial revision. As used here, \u201cpromising\u201d most nearly means",
+        "choices": [
+          "guaranteed",
+          "showing potential",
+          "famous",
+          "generous"
+        ],
+        "answer": 1,
+        "explanation": "The contrast shows the design had potential even though it was not yet finished.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-07",
+        "topic": "Craft and Structure",
+        "prompt": "Nina first describes the storm\u2019s damage, then explains how neighbors organized repairs. What is the main function of the second part?",
+        "choices": [
+          "It defines a scientific term.",
+          "It presents a response to the problem.",
+          "It questions whether the storm occurred.",
+          "It introduces an unrelated setting."
+        ],
+        "answer": 1,
+        "explanation": "The second part shifts from describing damage to showing the community response.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-08",
+        "topic": "Craft and Structure",
+        "prompt": "\u201cUnlike the silent greenhouse, the outdoor plot buzzed with insects.\u201d Why does the writer include this contrast?",
+        "choices": [
+          "To emphasize a difference in pollinator activity",
+          "To prove greenhouses are always harmful",
+          "To identify every insect species",
+          "To explain how glass is manufactured"
+        ],
+        "answer": 0,
+        "explanation": "The contrast highlights the different levels of insect activity in the two settings.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-09",
+        "topic": "Craft and Structure",
+        "prompt": "The critic describes the novel as \u201cambitious, though uneven.\u201d Which choice best characterizes the critic\u2019s perspective?",
+        "choices": [
+          "Entirely negative",
+          "Entirely enthusiastic",
+          "Balanced but qualified",
+          "Uninterested"
+        ],
+        "answer": 2,
+        "explanation": "The critic recognizes ambition while also noting inconsistency, creating a qualified assessment.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-10",
+        "topic": "Craft and Structure",
+        "prompt": "In the sentence \u201cThe new evidence undermines the earlier theory,\u201d undermines most nearly means",
+        "choices": [
+          "supports",
+          "weakens",
+          "copies",
+          "illustrates"
+        ],
+        "answer": 1,
+        "explanation": "To undermine a theory is to weaken its credibility or foundation.",
+        "difficulty": "easy"
+      }
+    ],
+    "Expression of Ideas": [
+      {
+        "id": "sat-11",
+        "topic": "Expression of Ideas",
+        "prompt": "The first trial produced no measurable change. ___, the researchers adjusted the temperature and repeated it.",
+        "choices": [
+          "For example",
+          "Therefore",
+          "Meanwhile",
+          "Likewise"
+        ],
+        "answer": 1,
+        "explanation": "\u201cTherefore\u201d correctly signals that the second action resulted from the first outcome.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-12",
+        "topic": "Expression of Ideas",
+        "prompt": "Which sentence best supports the claim that community gardens can improve access to fresh food?",
+        "choices": [
+          "Gardens can contain flowers of many colors.",
+          "One neighborhood garden distributed 900 pounds of produce last year.",
+          "Some tools have wooden handles.",
+          "The garden fence was painted green."
+        ],
+        "answer": 1,
+        "explanation": "The amount of produce distributed provides relevant quantitative evidence for the claim.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-13",
+        "topic": "Expression of Ideas",
+        "prompt": "Lena wants to emphasize the sequence of a pottery process. Which organization is most logical?",
+        "choices": [
+          "Finished bowl, raw clay, shaping, firing",
+          "Raw clay, shaping, firing, finished bowl",
+          "Firing, finished bowl, raw clay, shaping",
+          "Shaping, raw clay, finished bowl, firing"
+        ],
+        "answer": 1,
+        "explanation": "The process logically moves from raw material through shaping and firing to the finished object.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-14",
+        "topic": "Expression of Ideas",
+        "prompt": "Notes: Solar panels were installed in May. June electricity purchases fell 18%. Weather remained typical. Which sentence best synthesizes the notes?",
+        "choices": [
+          "May comes before June.",
+          "After solar panels were installed in May, electricity purchases fell 18% in a typical-weather June.",
+          "Solar panels are usually dark rectangles.",
+          "Weather can change rapidly."
+        ],
+        "answer": 1,
+        "explanation": "This choice combines the installation, measured decline, and relevant weather context.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-15",
+        "topic": "Expression of Ideas",
+        "prompt": "The museum is small. ___, its collection includes works from six continents.",
+        "choices": [
+          "Nevertheless",
+          "Similarly",
+          "For instance",
+          "Consequently"
+        ],
+        "answer": 0,
+        "explanation": "\u201cNevertheless\u201d expresses the contrast between the museum\u2019s size and its broad collection.",
+        "difficulty": "medium"
+      }
+    ],
+    "Standard English Conventions": [
+      {
+        "id": "sat-16",
+        "topic": "Standard English Conventions",
+        "prompt": "Choose the grammatically correct sentence.",
+        "choices": [
+          "The collection of maps are stored upstairs.",
+          "The collection of maps is stored upstairs.",
+          "The collection of maps were stored upstairs.",
+          "The collection of maps be stored upstairs."
+        ],
+        "answer": 1,
+        "explanation": "The singular subject \u201ccollection\u201d requires the singular verb \u201cis.\u201d",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sat-17",
+        "topic": "Standard English Conventions",
+        "prompt": "Which choice correctly completes the sentence? The forecast predicted rain ___ the team packed waterproof gear.",
+        "choices": [
+          ",",
+          ";",
+          ":",
+          "\u2014"
+        ],
+        "answer": 1,
+        "explanation": "A semicolon correctly joins two closely related independent clauses.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-18",
+        "topic": "Standard English Conventions",
+        "prompt": "Choose the sentence with the modifier placed correctly.",
+        "choices": [
+          "Running down the path, the lake appeared beside Amir.",
+          "Running down the path, Amir saw the lake appear beside him.",
+          "The lake, running down the path, appeared beside Amir.",
+          "Amir saw, running down the path, the lake appeared."
+        ],
+        "answer": 1,
+        "explanation": "The opening modifier logically describes Amir, the person who was running.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-19",
+        "topic": "Standard English Conventions",
+        "prompt": "Choose the correct possessive form: The two ___ projects were displayed.",
+        "choices": [
+          "students",
+          "student\u2019s",
+          "students\u2019",
+          "students\u2019s"
+        ],
+        "answer": 2,
+        "explanation": "The projects belong to two students, so the plural possessive form is \u201cstudents\u2019.\u201d",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-20",
+        "topic": "Standard English Conventions",
+        "prompt": "Which sentence uses commas correctly?",
+        "choices": [
+          "After the meeting we revised the plan.",
+          "After the meeting, we revised the plan.",
+          "After, the meeting we revised the plan.",
+          "After the meeting we, revised the plan."
+        ],
+        "answer": 1,
+        "explanation": "A comma should follow the introductory phrase \u201cAfter the meeting.\u201d",
+        "difficulty": "easy"
+      }
+    ],
+    "Algebra": [
+      {
+        "id": "sat-21",
+        "topic": "Algebra",
+        "prompt": "Solve 3x + 7 = 25.",
+        "choices": [
+          "4",
+          "6",
+          "8",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "Subtract 7 to get 3x = 18, then divide by 3 to get x = 6.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sat-22",
+        "topic": "Algebra",
+        "prompt": "The lines y = 2x + 1 and y = -x + 7 intersect at which point?",
+        "choices": [
+          "(1,3)",
+          "(2,5)",
+          "(3,7)",
+          "(4,9)"
+        ],
+        "answer": 1,
+        "explanation": "Set expressions equal: 2x+1=-x+7, so x=2 and y=5.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-23",
+        "topic": "Algebra",
+        "prompt": "A taxi charges $4 plus $2.50 per mile. Which expression gives the cost for m miles?",
+        "choices": [
+          "4m + 2.50",
+          "2.50m + 4",
+          "6.50m",
+          "2.50(m + 4)"
+        ],
+        "answer": 1,
+        "explanation": "The fixed fee is 4 and the mileage charge is 2.50 times m.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-24",
+        "topic": "Algebra",
+        "prompt": "If 5 - 2x > 11, which inequality is equivalent?",
+        "choices": [
+          "x > -3",
+          "x < -3",
+          "x > 3",
+          "x < 3"
+        ],
+        "answer": 1,
+        "explanation": "Subtract 5, divide by -2, and reverse the inequality to obtain x < -3.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-25",
+        "topic": "Algebra",
+        "prompt": "A quantity increases from 80 to 92. What is the percent increase?",
+        "choices": [
+          "12%",
+          "15%",
+          "20%",
+          "25%"
+        ],
+        "answer": 1,
+        "explanation": "The increase is 12; dividing 12 by the original 80 gives 0.15, or 15%.",
+        "difficulty": "medium"
+      }
+    ],
+    "Advanced Math": [
+      {
+        "id": "sat-26",
+        "topic": "Advanced Math",
+        "prompt": "What are the solutions to x\u00b2 - 5x + 6 = 0?",
+        "choices": [
+          "1 and 6",
+          "2 and 3",
+          "-2 and -3",
+          "-1 and -6"
+        ],
+        "answer": 1,
+        "explanation": "Factoring gives (x-2)(x-3)=0, so the solutions are 2 and 3.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-27",
+        "topic": "Advanced Math",
+        "prompt": "If f(x)=x\u00b2+2x, what is f(3)?",
+        "choices": [
+          "9",
+          "12",
+          "15",
+          "18"
+        ],
+        "answer": 2,
+        "explanation": "Substitute 3: 3\u00b2 + 2(3) = 9 + 6 = 15.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sat-28",
+        "topic": "Advanced Math",
+        "prompt": "Which expression is equivalent to (x\u00b3\u00b7x\u2075)/x\u00b2 for x\u22600?",
+        "choices": [
+          "x\u2076",
+          "x\u2078",
+          "x\u00b9\u2070",
+          "x\u00b9\u2075"
+        ],
+        "answer": 0,
+        "explanation": "Add exponents when multiplying and subtract when dividing: 3+5-2=6.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-29",
+        "topic": "Advanced Math",
+        "prompt": "For what value of x is 2/(x-1) undefined?",
+        "choices": [
+          "-1",
+          "0",
+          "1",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "The expression is undefined when its denominator is zero, which occurs at x=1.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-30",
+        "topic": "Advanced Math",
+        "prompt": "A parabola has vertex (2,-3) and opens upward. Which equation could represent it?",
+        "choices": [
+          "y=(x-2)\u00b2-3",
+          "y=(x+2)\u00b2-3",
+          "y=-(x-2)\u00b2-3",
+          "y=(x-3)\u00b2+2"
+        ],
+        "answer": 0,
+        "explanation": "Vertex form y=a(x-h)\u00b2+k with positive a gives y=(x-2)\u00b2-3.",
+        "difficulty": "medium"
+      }
+    ],
+    "Problem-Solving and Data Analysis": [
+      {
+        "id": "sat-31",
+        "topic": "Problem-Solving and Data Analysis",
+        "prompt": "The values are 4, 7, 7, 10, 12. What is the mean?",
+        "choices": [
+          "7",
+          "8",
+          "8.5",
+          "10"
+        ],
+        "answer": 1,
+        "explanation": "Their sum is 40, and 40 divided by 5 values equals 8.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sat-32",
+        "topic": "Problem-Solving and Data Analysis",
+        "prompt": "A bag contains 3 red, 5 blue, and 2 green marbles. What is the probability of selecting a blue marble?",
+        "choices": [
+          "1/5",
+          "3/10",
+          "1/2",
+          "4/5"
+        ],
+        "answer": 2,
+        "explanation": "There are 10 marbles total and 5 are blue, so the probability is 5/10=1/2.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-33",
+        "topic": "Problem-Solving and Data Analysis",
+        "prompt": "A recipe uses 3 cups of flour for 24 cookies. At the same rate, how many cups are needed for 40 cookies?",
+        "choices": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": 1,
+        "explanation": "The rate is 3/24=1/8 cup per cookie; 40/8=5 cups.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-34",
+        "topic": "Problem-Solving and Data Analysis",
+        "prompt": "In a poll of 250 people, 60% preferred option A. How many people preferred A?",
+        "choices": [
+          "100",
+          "125",
+          "150",
+          "175"
+        ],
+        "answer": 2,
+        "explanation": "Multiply 250 by 0.60 to obtain 150 people.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-35",
+        "topic": "Problem-Solving and Data Analysis",
+        "prompt": "A car travels 180 miles in 3 hours at a constant rate. What is its speed?",
+        "choices": [
+          "45 mph",
+          "60 mph",
+          "90 mph",
+          "540 mph"
+        ],
+        "answer": 1,
+        "explanation": "Rate equals distance divided by time: 180 \u00f7 3 = 60 miles per hour.",
+        "difficulty": "easy"
+      }
+    ],
+    "Geometry and Trigonometry": [
+      {
+        "id": "sat-36",
+        "topic": "Geometry and Trigonometry",
+        "prompt": "A right triangle has legs 6 and 8. What is the hypotenuse?",
+        "choices": [
+          "10",
+          "12",
+          "14",
+          "15"
+        ],
+        "answer": 0,
+        "explanation": "By the Pythagorean theorem, c\u00b2=6\u00b2+8\u00b2=100, so c=10.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "sat-37",
+        "topic": "Geometry and Trigonometry",
+        "prompt": "What is the area of a circle with radius 4?",
+        "choices": [
+          "4\u03c0",
+          "8\u03c0",
+          "16\u03c0",
+          "32\u03c0"
+        ],
+        "answer": 2,
+        "explanation": "Circle area is \u03c0r\u00b2, so \u03c0(4\u00b2)=16\u03c0.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-38",
+        "topic": "Geometry and Trigonometry",
+        "prompt": "A rectangle has length 12 and diagonal 13. What is its width?",
+        "choices": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Using w\u00b2+12\u00b2=13\u00b2 gives w\u00b2=25, so the width is 5.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-39",
+        "topic": "Geometry and Trigonometry",
+        "prompt": "In a right triangle, sin \u03b8 = 3/5. If the hypotenuse is 20, what is the side opposite \u03b8?",
+        "choices": [
+          "8",
+          "10",
+          "12",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "Since opposite/hypotenuse=3/5, the opposite side is (3/5)(20)=12.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "sat-40",
+        "topic": "Geometry and Trigonometry",
+        "prompt": "What is the volume of a rectangular prism measuring 3 by 4 by 7?",
+        "choices": [
+          "14",
+          "28",
+          "56",
+          "84"
+        ],
+        "answer": 3,
+        "explanation": "Volume is length times width times height: 3\u00d74\u00d77=84 cubic units.",
+        "difficulty": "easy"
+      }
+    ]
+  }
+}
