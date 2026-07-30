@@ -162,6 +162,8 @@
     .lead-form .button { width: 100%; }
     .privacy { margin: 10px 0 0; color: var(--muted); font-size: 11px; text-align: center; }
     .privacy a { color: var(--terracotta-dark); }
+    .form-status { min-height: 24px; margin: 12px 0 0; color: var(--muted); font-size: 13px; text-align: center; }
+    .form-status.error { color: #9f2f22; }
     .consent { margin: 4px 0 17px; display: grid; grid-template-columns: 22px 1fr; gap: 9px; align-items: start; color: var(--muted); font-size: 12px; font-weight: 500; }
     .consent input { width: 18px; min-height: 18px; margin: 2px 0 0; }
     .honeypot { position: absolute !important; width: 1px !important; height: 1px !important; overflow: hidden !important; clip: rect(0, 0, 0, 0) !important; white-space: nowrap !important; }
@@ -374,7 +376,7 @@
           <p class="contact-note">Complete the form and your request will be delivered to <a href="mailto:admin@sonoranscholars.com">admin@sonoranscholars.com</a>. Please do not include medical records, disability documentation, passwords, or other sensitive information.</p>
         </div>
         <div class="lead-form">
-          <form id="consultation-form" action="https://formsubmit.co/admin@sonoranscholars.com" method="post">
+          <form id="consultation-form" action="#contact" method="post">
             <input type="hidden" name="_subject" value="New Sonoran Scholars consultation request">
             <input type="hidden" name="_next" value="https://sonoranscholars.com/thanks.html">
             <input type="hidden" name="_template" value="table">
@@ -392,6 +394,7 @@
             <div class="field"><label for="message">What would you like help with?</label><textarea id="message" name="message" placeholder="Tell us about the class, test date, or learning goal."></textarea></div>
             <label class="consent" for="consent"><input id="consent" type="checkbox" name="consent" value="I agree" required><span>I agree that Sonoran Scholars may use this information to respond to my tutoring inquiry. I have read the <a href="privacy.html">privacy notice</a>.</span></label>
             <button class="button" type="submit">Request a consultation <span aria-hidden="true">→</span></button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
             <p class="privacy">Your information is sent securely to our business email through FormSubmit. We do not ask for a student's full name on this form.</p>
           </form>
         </div>
@@ -425,6 +428,32 @@
       document.querySelectorAll('.faq-item').forEach(other => { other.classList.remove('open'); other.querySelector('.faq-question').setAttribute('aria-expanded', 'false'); });
       if (willOpen) { item.classList.add('open'); button.setAttribute('aria-expanded', 'true'); }
     }));
+
+    const FORM_ENDPOINT = 'https://formsubmit.co/ajax/admin@sonoranscholars.com';
+    const consultationForm = document.getElementById('consultation-form');
+    const formStatus = document.getElementById('form-status');
+    const submitButton = consultationForm.querySelector('button[type="submit"]');
+    consultationForm.addEventListener('submit', async event => {
+      event.preventDefault();
+      formStatus.classList.remove('error');
+      formStatus.textContent = 'Sending your request…';
+      submitButton.disabled = true;
+      try {
+        const response = await fetch(FORM_ENDPOINT, {
+          method: 'POST',
+          headers: { Accept: 'application/json' },
+          body: new FormData(consultationForm),
+        });
+        const result = await response.json().catch(() => ({}));
+        const delivered = result.success === true || result.success === 'true';
+        if (!response.ok || !delivered) throw new Error('Submission was not accepted');
+        window.location.assign('thanks.html');
+      } catch (error) {
+        formStatus.classList.add('error');
+        formStatus.innerHTML = 'We could not send your request. Please email <a href="mailto:admin@sonoranscholars.com">admin@sonoranscholars.com</a>.';
+        submitButton.disabled = false;
+      }
+    });
 
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
