@@ -373,7 +373,7 @@
           <p class="eyebrow">Start the conversation</p>
           <h2 class="display section-title">Tell us where your student wants to go.</h2>
           <p class="section-copy">Share a few details and we’ll follow up to discuss goals, fit, format, and availability.</p>
-          <p class="contact-note">Complete the form and your request will be delivered to <a href="mailto:admin@sonoranscholars.com">admin@sonoranscholars.com</a>. Please do not include medical records, disability documentation, passwords, or other sensitive information.</p>
+          <p class="contact-note">Complete the form and your request will be delivered to <a href="mailto:info@sonoranscholars.com">info@sonoranscholars.com</a>. Please do not include medical records, disability documentation, passwords, or other sensitive information.</p>
         </div>
         <div class="lead-form">
           <form id="consultation-form" action="#contact" method="post">
@@ -429,7 +429,7 @@
       if (willOpen) { item.classList.add('open'); button.setAttribute('aria-expanded', 'true'); }
     }));
 
-    const FORM_ENDPOINT = 'https://formsubmit.co/ajax/admin@sonoranscholars.com';
+    const FORM_ENDPOINT = 'https://formsubmit.co/ajax/info@sonoranscholars.com';
     const consultationForm = document.getElementById('consultation-form');
     const formStatus = document.getElementById('form-status');
     const submitButton = consultationForm.querySelector('button[type="submit"]');
@@ -450,7 +450,7 @@
         window.location.assign('thanks.html');
       } catch (error) {
         formStatus.classList.add('error');
-        formStatus.innerHTML = 'We could not send your request. Please email <a href="mailto:admin@sonoranscholars.com">admin@sonoranscholars.com</a>.';
+        formStatus.innerHTML = 'We could not send your request. Please email <a href="mailto:info@sonoranscholars.com">info@sonoranscholars.com</a>.';
         submitButton.disabled = false;
       }
     });
